@@ -53,7 +53,7 @@ music('battle', {volume:0.5});
 
 n: AND THIS IS THE HUMAN'S ANXIETY
 
-n: _YOU_ ARE THE ANXIETY
+n: _YOU_ ARE THE ANXIETY (again)
 
 (#act1_normal)
 
@@ -66,7 +66,7 @@ sfx("rustle");
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Nope. No, nope, not listening. Gonna check my phone.
+h: Okay, you are really annoying me, i'ma go scroll through tiktok.
 
 ```
 sfx("rustle2");
@@ -77,14 +77,14 @@ n: YOUR JOB IS TO PROTECT YOUR HUMAN FROM *DANGER*
 
 `bb({eyes:"look", mouth:"small_lock", body:"fear"})`
 
-b: Gasp! You're scrolling your life away on Twitter! Again!
+b: Gasp! You're scrolling your life away on TikTok! Again Again!
 
 ```
 bb({eyes:"normal", mouth:"normal", body:"normal"});
 hong({eyes:"annoyed"});
 ```
 
-h: Yeah I wonder why I don't just sit and listen to my thoughts more often.
+h: Shut up it's fun.
 
 `hong({eyes:"neutral"});`
 
@@ -94,25 +94,24 @@ n: QUICK, WARN THEM ABOUT A *DANGER!*
 bb({eyes:"look"});
 ```
 
-[Oh no, look at that horrible news story!](#act1d_news)
+[They are banning tiktok!](#act1d_news)
 
-[Oh no, is that tweet secretly about *us?*](#act1d_subtweet)
+[Is this post about *us?*](#act1d_subtweet)
 
-[Hey, a GIF of a cat drinking milk](#act1d_milk)
+[Hehehe, i love men](#act1d_milk)
 
 # act1d_milk
 
 `hong({mouth:"smile", eyes:"surprise"});`
 
-h: Heh ya that's cute, I--
+h: Yeah i like me-
 
 ```
 hong({mouth:"shock", eyes:"shock"});
-bb({body:"scream"});
 Game.OVERRIDE_TEXT_SPEED = 1.8;
 ```
 
-b: CATS CAN'T DIGEST MILK AND WE'RE TERRIBLE PEOPLE FOR ENJOYING ANIMAL ABUSE
+h: wait a minute aren't you a man?
 
 (...200)
 
